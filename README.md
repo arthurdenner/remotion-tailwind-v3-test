@@ -1,53 +1,23 @@
-# Remotion video
+## remotion-tailwind-v3-test
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <img src="https://github.com/remotion-dev/logo/raw/main/withtitle/element-0.png">
-  </a>
-</p>
+A reproducible example of how Remotion works with Tailwind v3.
 
-Welcome to your Remotion project!
+There is an issue currently, the styles are not always updated.
 
-## Commands
+  - https://github.com/remotion-dev/remotion/issues/737#issuecomment-1007553694
+  - https://github.com/tailwindlabs/tailwindcss/discussions/6963
 
-**Start Preview**
+## Steps
 
-```console
-npm start
-```
+- `yarn install`
+- `yarn start`
+- Open `HelloWorld.tsx` and change the container's class to a not used class, e.g:
+  - `bg-red-100`, `bg-purple-800`, etc
+- Save the file
+- The preview may or may not update correctly
+  - Usually, the first change works fine
+- If it did, try changing the className and saving the file again
+- If it didn't open `tailwind.config.js` and save it
+  - The preview should update as expected
 
-**Render video**
-
-```console
-npm run build
-```
-
-**Server render demo**
-
-```console
-npm run server
-```
-
-See [docs for server-side rendering](https://www.remotion.dev/docs/ssr) here.
-
-**Upgrade Remotion**
-
-```console
-npm run upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help [on our Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Notice that for some entities a company license is needed. Read [the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+If you `yarn install tailwindcss@2` and `yarn start` again, the preview should update as expected.
