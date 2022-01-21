@@ -87,10 +87,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@remotion/bundler@2.6.1", "@remotion/bundler@^2.3.2":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@remotion/bundler/-/bundler-2.6.1.tgz#92912d2ec54d5d338982bad3e7d35a9b7eeadc65"
-  integrity sha512-v4XMNNYeDklD+xeNE1ywaKSAqaFDWGJzMBwlWh3zYYOxt6j/mPGLMy1+HLDpxpIXF6jmkfG4TctMXnjr9EjY0A==
+"@remotion/bundler@2.6.4", "@remotion/bundler@^2.6.4":
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/@remotion/bundler/-/bundler-2.6.4.tgz#668e49069c9ee93fa6354a72b5050471434747bb"
+  integrity sha512-pkTq0usGz46O/Jq48AQWsghXc6hunzWmo84lo1rfc5TcQtqCB/RvulW3W2jsGPQ2jVdN8htayfzlXzyUKZIDrQ==
   dependencies:
     css-loader "^5.0.1"
     esbuild-loader "^2.10.0"
@@ -101,37 +101,37 @@
     memfs "^3.4.0"
     mime-types "^2.1.34"
     react-refresh "^0.9.0-rc.2"
-    remotion "2.6.1"
+    remotion "2.6.4"
     semver "7.3.4"
     source-map "^0.5.7"
     source-map-loader "^3.0.0"
     style-loader "^2.0.0"
     webpack "5.60.0"
 
-"@remotion/cli@^2.3.2":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@remotion/cli/-/cli-2.6.1.tgz#b508a126c64636ff2f949c2141f5b2dd8bc8752c"
-  integrity sha512-/LXsF6toqk+/y75xHVEe0i6/VxUouF8s3wSSYBSNSAbrKUa2SxN0mOPNsb8ZrdXuCDGNlnMGiQnCjCKRCFEeMw==
+"@remotion/cli@^2.6.4":
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/@remotion/cli/-/cli-2.6.4.tgz#7e66100d6d08bba698ba8ca39a2be75e6241b91e"
+  integrity sha512-4MVxsQNQSG5D6MEYgW6LwO39Io3rUzrLKvPqUrFS2keWbEzJawRdZAQh4cVYFhX616eIkEAf6BRvIHV8HPAb5A==
   dependencies:
-    "@remotion/bundler" "2.6.1"
-    "@remotion/media-utils" "2.6.1"
-    "@remotion/player" "2.6.1"
-    "@remotion/renderer" "2.6.1"
+    "@remotion/bundler" "2.6.4"
+    "@remotion/media-utils" "2.6.4"
+    "@remotion/player" "2.6.4"
+    "@remotion/renderer" "2.6.4"
     better-opn "^2.1.1"
     chalk "^4.1.0"
     dotenv "^9.0.0"
     execa "^4.0.2"
     minimist "^1.2.5"
-    remotion "2.6.1"
+    remotion "2.6.4"
     semver "^7.3.4"
     webpack "5.60.0"
 
-"@remotion/eslint-config@^2.3.2":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@remotion/eslint-config/-/eslint-config-2.6.1.tgz#93215426194d871f1de8119428af36a5ee413e78"
-  integrity sha512-a0efVRBUMC3gmbfhrb1jbNrtoaNhBW5rAvSo4ct/bolyK6B1+jWomHWNPwcLx0rKc62kngxgh1q5dUBVod3VmQ==
+"@remotion/eslint-config@^2.6.4":
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/@remotion/eslint-config/-/eslint-config-2.6.4.tgz#0990e2838b9d439e414a340e5762900ca4a09433"
+  integrity sha512-vG4vjG2RaRzGOedd3c72TrXvW29MMbrOzkt239IM8zfNBdyy7KJ0xjBpvKodIG04MTHXbe9xR93HJYvKxgqx4w==
   dependencies:
-    "@remotion/eslint-plugin" "2.6.1"
+    "@remotion/eslint-plugin" "2.6.4"
     "@typescript-eslint/eslint-plugin" "^4.22.0"
     "@typescript-eslint/parser" "^4.22.0"
     eslint-config-prettier "^8.2.0"
@@ -141,38 +141,37 @@
     eslint-plugin-react "^7.23.2"
     eslint-plugin-react-hooks "^4.2.0"
 
-"@remotion/eslint-plugin@2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@remotion/eslint-plugin/-/eslint-plugin-2.6.1.tgz#34fa88144257194f0cf5aeaa6138697abc3e242f"
-  integrity sha512-UZCs7gWtsxpwhQ64zWhAFQi2o7pRQCmfzVrrYpiDkCaer0huUXhEN66RrlMie7shs/yxtLZl5vkj/d9J4YNS8Q==
+"@remotion/eslint-plugin@2.6.4":
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/@remotion/eslint-plugin/-/eslint-plugin-2.6.4.tgz#92f2de4b0aacae9d5631d5dfc7b91a15cf35a369"
+  integrity sha512-IBfIs1sx7BIltUZGt7FXwhOyW2k8USwSQsT5cr3Kag6qWyOk+2n+4jYlrljZZLee5smTQTqSliBdjLi57AKitA==
 
-"@remotion/media-utils@2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@remotion/media-utils/-/media-utils-2.6.1.tgz#9d83f770feb59bc14634968fd077bfc907b53e12"
-  integrity sha512-UyEoNLLmu2nlxxXy5SwNAHmOHAWybs7dlYslAAG7WnmEzD2y7nXrlBI4+BSvqnIghMy+5H3Pr+L1zDu6fUSTXw==
+"@remotion/media-utils@2.6.4":
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/@remotion/media-utils/-/media-utils-2.6.4.tgz#8899b802306bfa86e143a6c2146c4c559f03c7a0"
+  integrity sha512-cmaN0CLaF68fLlXrqxaiH2VbXf348HE5+xHZaUrHgznzDzxCZVgFKIp6eCIlMk57BuQ7MF2+LXJ9HMyHaEJKww==
   dependencies:
-    remotion "2.6.1"
+    remotion "2.6.4"
 
-"@remotion/player@2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@remotion/player/-/player-2.6.1.tgz#7795699845f91f8980ab96454f57cf736bc6bd25"
-  integrity sha512-Of9U2Duu0hXEqAGR+QWTiyIjw++OXwc8Nfmf34t1FcyZEZtqR4VacJJTdTzDar84LI+21O22yNbuRQQrshAgvA==
+"@remotion/player@2.6.4":
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/@remotion/player/-/player-2.6.4.tgz#e8d2f3e71bc215a422046566ba4b5d53f79c70e8"
+  integrity sha512-B/7AW2aFxcuO8M7s+cXloXZaW/qrHUnZ3xkmULvFMXhERqXvJAuGA+IJchkPklhAcd644p4h2dGtUUaPXWVf1g==
   dependencies:
-    remotion "2.6.1"
+    remotion "2.6.4"
 
-"@remotion/renderer@2.6.1", "@remotion/renderer@^2.3.2":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@remotion/renderer/-/renderer-2.6.1.tgz#4b44995f6d97995ee660a0eb66af620178648728"
-  integrity sha512-S3VqGp9eEe8DiswhAvztdrX56ZARPU4j+TJRcVTFNCNYtQXHnzJ7SfT+H+pyCICjBlIIm/fKjkj+VrR2lpRyvw==
+"@remotion/renderer@2.6.4", "@remotion/renderer@^2.6.4":
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/@remotion/renderer/-/renderer-2.6.4.tgz#86deca9e9a6ff017f7d61a193b2c452c5dea53e7"
+  integrity sha512-sQfDTCGvN6VGxGBUCdL6ieK0Hc5VQ7Xc/NvPKoAVsTM4921PfzfYAJduOaN/XHuRE9xLtqlmYNAQA39LzW/ypA==
   dependencies:
-    "@remotion/bundler" "2.6.1"
+    "@remotion/bundler" "2.6.4"
     "@testing-library/dom" "^8.7.2"
     execa "^4.0.2"
     got "11.8.2"
     p-limit "^3.1.0"
     puppeteer-core "^10.2.0"
-    remotion "2.6.1"
-    sanitize-filename "^1.6.3"
+    remotion "2.6.4"
     serve-handler "^6.1.3"
 
 "@sindresorhus/is@^0.14.0":
@@ -3398,10 +3397,10 @@ registry-url@^5.0.0:
   dependencies:
     rc "^1.2.8"
 
-remotion@2.6.1, remotion@^2.3.2:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.6.1.tgz#3ca5b75966698e9230084aace6898d621454baae"
-  integrity sha512-/CiNiHYutx13L8WM1wRBrem+ZtOV5tO/MfZ22pz10i/R5O0biFx1JX5qdLZe5hKd2yNOmWtG/Ul+gR+mQakwbQ==
+remotion@2.6.4, remotion@^2.6.4:
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.6.4.tgz#193e76ec1f1316d6a830d4d05ee906749fc4a18c"
+  integrity sha512-8FSj2ffV4Xe2O5uoLnkG0Zb4R1MSyM/lYWvQJb+ubL3SnPOmrk5DeUWWyjFJIyXKBipv4woEm/RmclkSLyg5tA==
 
 require-from-string@^2.0.2:
   version "2.0.2"
@@ -3477,13 +3476,6 @@ safe-buffer@5.2.1, safe-buffer@^5.1.0, safe-buffer@~5.2.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
-
-sanitize-filename@^1.6.3:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/sanitize-filename/-/sanitize-filename-1.6.3.tgz#755ebd752045931977e30b2025d340d7c9090378"
-  integrity sha512-y/52Mcy7aw3gRm7IrcGDFx/bCk4AhRh2eI9luHOQM86nZsqwiRkkq2GekHXBBD+SmPidc8i2PqtYZl+pWJ8Oeg==
-  dependencies:
-    truncate-utf8-bytes "^1.0.0"
 
 scheduler@^0.20.2:
   version "0.20.2"
@@ -3880,13 +3872,6 @@ toidentifier@1.0.1:
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.1.tgz#3be34321a88a820ed1bd80dfaa33e479fbb8dd35"
   integrity sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==
 
-truncate-utf8-bytes@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/truncate-utf8-bytes/-/truncate-utf8-bytes-1.0.2.tgz#405923909592d56f78a5818434b0b78489ca5f2b"
-  integrity sha1-QFkjkJWS1W94pYGENLC3hInKXys=
-  dependencies:
-    utf8-byte-length "^1.0.1"
-
 ts-node@^9.1.1:
   version "9.1.1"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-9.1.1.tgz#51a9a450a3e959401bda5f004a72d54b936d376d"
@@ -3972,11 +3957,6 @@ url-parse-lax@^3.0.0:
   integrity sha1-FrXK/Afb42dsGxmZF3gj1lA6yww=
   dependencies:
     prepend-http "^2.0.0"
-
-utf8-byte-length@^1.0.1:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/utf8-byte-length/-/utf8-byte-length-1.0.4.tgz#f45f150c4c66eee968186505ab93fcbb8ad6bf61"
-  integrity sha1-9F8VDExm7uloGGUFq5P8u4rWv2E=
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2:
   version "1.0.2"
