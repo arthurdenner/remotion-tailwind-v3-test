@@ -3387,6 +3387,11 @@ registry-url@^5.0.0:
   dependencies:
     rc "^1.2.8"
 
+remotion-transition-series@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/remotion-transition-series/-/remotion-transition-series-0.0.4.tgz#c70198600469fbc9df69e298bbff5b5532a040c8"
+  integrity sha512-NFFi9jvI/BrNRvpgF3AlY75ZQJ68+lLEplRq8KcdYUxqn1FuVD0mvojGiVVssnZHaWBFmH7mauXFvGs2bP8SEQ==
+
 remotion@2.6.4, remotion@^2.6.4:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.6.4.tgz#193e76ec1f1316d6a830d4d05ee906749fc4a18c"
